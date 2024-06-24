@@ -7,6 +7,13 @@
   border-bottom-right-radius: 10px;
   cursor: pointer;
   color: gray;
+  /* margin-bottom: 1px; */
+}
+.sidebarOptions--active {
+  background-color: rgb(250, 235, 233);
+  color: rgb(168, 53, 53);
+  font-weight: 800px !important;
+  /* check 1.05 if any mistake in styling  */
 }
 .sidebarOptions:hover,
 .sidebarOptions:hover > p,
