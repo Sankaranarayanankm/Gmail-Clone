@@ -15,6 +15,7 @@ import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import RedoIcon from "@mui/icons-material/Redo";
 import { IconButton } from "@mui/material";
 import Section from "../Section/Section";
+import EmailRow from "./EmailRow";
 const EmailList = () => {
   return (
     <div className="emailList">
@@ -50,6 +51,26 @@ const EmailList = () => {
         <Section Icon={InboxIcon} title={"primary"} selected color="red" />
         <Section Icon={PeopleIcon} title={"Socials"} color="blue" />
         <Section Icon={LocalOfferIcon} title={"Promotions"} color="green" />
+      </div>
+      <div className="emailList__list">
+        <EmailRow
+          title="Twitch"
+          subject="This is aswome"
+          description="This is for test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="This is aswome"
+          description="This is for test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="This is aswome but is it working? i think it is!!"
+          description="This is for test let me check this one right now"
+          time="10pm"
+        />
       </div>
     </div>
   );
