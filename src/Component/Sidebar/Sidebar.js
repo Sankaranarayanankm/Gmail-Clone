@@ -17,7 +17,6 @@ import PhoneIcon from "@mui/icons-material/Phone";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h1>Sidebar</h1>
       <Button className="sidebar__compose" startIcon={<AddIcon />}>
         Compose
       </Button>

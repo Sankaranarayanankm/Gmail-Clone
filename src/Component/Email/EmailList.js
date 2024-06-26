@@ -8,9 +8,13 @@ import {
   MoreVert,
   Settings,
 } from "@mui/icons-material";
+import InboxIcon from "@mui/icons-material/Inbox";
+import PeopleIcon from "@mui/icons-material/People";
+import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import RedoIcon from "@mui/icons-material/Redo";
 import { IconButton } from "@mui/material";
+import Section from "../Section/Section";
 const EmailList = () => {
   return (
     <div className="emailList">
@@ -43,7 +47,9 @@ const EmailList = () => {
         </div>
       </div>
       <div className="emailList__sections">
-        
+        <Section Icon={InboxIcon} title={"primary"} selected color="red" />
+        <Section Icon={PeopleIcon} title={"Socials"} color="blue" />
+        <Section Icon={LocalOfferIcon} title={"Promotions"} color="green" />
       </div>
     </div>
   );
