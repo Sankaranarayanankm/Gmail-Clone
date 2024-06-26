@@ -1,7 +1,10 @@
 import React from "react";
 import "./Mail.css";
+
 const Mail = () => {
-  return <div className="mail">Mail</div>;
+  return <div className="mail">
+    <h1>This is mail Component and its lit</h1>
+    </div>;
 };
 
 export default Mail;

@@ -3,8 +3,8 @@ import "./App.css";
 import Header from "./Component/Header/Header";
 import Sidebar from "./Component/Sidebar/Sidebar";
 import { Switch, Route } from "react-router-dom";
-import { Mail } from "@mui/icons-material";
 import EmailList from "./Component/Email/EmailList";
+import Mail from "./Component/Email/Mail";
 
 const App = () => {
   return (
