@@ -14,7 +14,7 @@ const EmailRow = ({ title, subject, description, time, id }) => {
     <div onClick={()=>history.push('/mail')} className="emailRow">
       <div className="emailRow__options">
         <CheckBox />
-        <IconButton>
+      <IconButton>
           <StarBorderOutlined />
         </IconButton>
         <IconButton>
